@@ -16,3 +16,11 @@ are required
 There is ternary if in Go, so you'll need to use a full if statement even
 for basic conditions
 
+### Switch 
+You can use commas to seperate multiple expressions in the same case 
+statement. We use the optional default case in this example as well.
+
+switch without an expression is an alternate way to express way if/else 
+logic. Here we show how the case expressions can be non-constants.
+
+A type switch compares types instead of values. 
